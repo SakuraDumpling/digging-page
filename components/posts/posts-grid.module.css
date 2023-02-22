@@ -1,9 +1,12 @@
 .grid {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  gap: 1.5rem;
-  align-content: center;
-}
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /*设置元素排列，这里是按行排列*/
+    display: auto-flow;
+    /*因为现在没有按块排列所以不需要*/
+    /*grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));*/
+    /*gap: 1.5rem;*/
+    align-content: center;
+    
+  }
