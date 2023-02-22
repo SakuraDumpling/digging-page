@@ -7,18 +7,20 @@ function MainNavigation() {
   return (
     <header className={classes.header}>
       <Link href='/'>
-        <a>
+        
           <Logo />
-        </a>
+        
       </Link>
       <nav>
         <ul>
+          <li><Link href='/course'>课程</Link></li>
           <li>
-            <Link href='/posts'>Posts</Link>
+            <Link href='/posts'>文章</Link>
           </li>
           <li>
-            <Link href='/contact'>Contact</Link>
+            <Link href='/activity'>活动</Link>
           </li>
+          <li><Link href='/competition'>竞赛</Link></li>
         </ul>
       </nav>
     </header>

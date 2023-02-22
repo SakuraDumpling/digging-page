@@ -5,7 +5,7 @@
 }
 
 body {
-  --color-grey-50: hsl(265, 55%, 96%);
+  --color-grey-50: hsl(224, 52%, 96%);
   --color-grey-100: hsl(265, 19%, 88%);
   --color-grey-200: hsl(265, 7%, 70%);
   --color-grey-300: hsl(265, 6%, 66%);
@@ -32,6 +32,13 @@ body {
   --color-error-100: #f1acc9;
   --color-error-500: #a10c4a;
 
+  --color-clack-100: #0f1423;
+  --color-clack-200: #475164;
+  --color-clack-300: #346c9c;
+  --color-clack-400: #93b5cf;
+  --color-clack-500: #5cb3cc;
+  --color-clack-600: #cdd1d3;
+
   --size-1: 0.25rem;
   --size-2: 0.5rem;
   --size-3: 0.75rem;
@@ -44,7 +51,8 @@ body {
   --size-40: 10rem;
 
   margin: 0;
-  background-color: var(--color-grey-500);
+  /*整体背景颜色*/
+  background-color: var(--color-clack-600);
   color: #252525;
   font-family: 'Roboto', sans-serif;
 }
